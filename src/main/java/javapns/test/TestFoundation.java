@@ -3,8 +3,6 @@ package javapns.test;
 import javapns.communication.*;
 import javapns.notification.*;
 
-import org.apache.log4j.*;
-
 class TestFoundation {
 
 	static boolean verifyCorrectUsage(Class testClass, String[] argsProvided, String... argsRequired) {
@@ -54,7 +52,7 @@ class TestFoundation {
 	 */
 	public static void configureBasicLogging() {
 		try {
-			BasicConfigurator.configure();
+//			BasicConfigurator.configure();
 		} catch (Exception e) {
 		}
 	}
